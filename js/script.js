@@ -3,7 +3,7 @@ const boton = document.getElementById("agregar")
 
 
 boton.addEventListener("click",function(){
-    let dato = prompt("coloca tu nombre");
+    let dato = prompt("Ingresa una fruta");
     let punto =document.createElement("li");
     const nuevo = document.createTextNode(dato);
     punto.appendChild(nuevo);

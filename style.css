@@ -1,0 +1,25 @@
+ul, li{list-style: none;
+ background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    color: blue;
+    width: 300px;
+    font-style: oblique;
+}
+
+html, body { height: 100%;margin: 0px;}
+h1 {color: aqua;
+    text-align: center;
+font-style: oblique;font-size: 40px;}
+
+body{background-image: url("./js/imagen/playa.gif");
+    justify-content: center;
+    display: grid; 
+    place-items: center;
+    background-repeat:no-repeat;
+    height:100vh;
+    margin:  0px;
+    background-size: cover;
+    background-position:center;
+    border-style: none;}
+    #agregar {background-color: aqua;font-style: oblique;}
